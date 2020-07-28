@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RetryLogic">
+    <listeners>
+        <listener class-name="Analyzer.MyTransformer" />
+    </listeners>
+    <test name="RetryMultipleFailedCases" >
+        <classes>
+            <class name="TestFolder.MyTestTwo" />
+            <!--        <class name="Pages.loginFacebook" />-->
+        </classes>
+    </test> <!-- PracticeNew(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
+
